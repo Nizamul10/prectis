@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: #562EFF;
+}
+.border{
+    background-color: #FFFFFF;
+    width: 870px;
+    margin-top: 21px;
+padding: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #FFFFFF;
+
+}
+hr{
+    border: 1px solid #D1D1D1;
+    
+}
+
+
+.palar img{
+    height: 56px;
+    width: 56px;
+    margin-right: 16px;
+}
+.palar{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 26px;
+}
+.ice img{
+    height: 177px;
+    width: 177px;
+    margin-right: 16px;
+}
+.ice_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+
+}
+.ice{
+    display: flex;
+}
+span{
+    color: #9F9F9F;
+}
+a{
+    text-decoration: none;
+}
+.cors img{
+    height: 104px;
+    width: 224px;
+
+}
+.last{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.para{
+    color: #ED6B4F;
+}
